@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 25px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+  .add-button {
+    border: 1px solid black;
+    padding: 15px 40px 15px 40px;
+  }
+  
+  .edit-button {
+    border: 1px solid black;
+    padding: 15px 40px 15px 40px;
+  }
+  
+  .delete-button {
+    border: 1px solid black;
+    padding: 15px 40px 15px 40px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px 100px 100px;
+    border: 4px solid rgb(26, 23, 23);
+  }
+
+  .card-positions {
+    height:120px;
+    width:800px;
+    margin:auto;
+
+  }
